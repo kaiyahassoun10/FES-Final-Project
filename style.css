@@ -287,11 +287,22 @@ nav {
     max-width: calc(630px/3);
 }
 
+.quality__row {
+    display: flex;
+}
+
 .quality__description {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
+.quality__img--wrapper {
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 4px;
+    margin-left: 56px;
+}
 
-
+.quality__img {
+    width: 80%;
+}
