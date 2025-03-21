@@ -326,7 +326,7 @@ nav {
   color: #7c8ba1;
   font-weight: 500;
   text-align: center;
-  max-width: 530px;
+  max-width: 55%;
   line-height: 1.5;
 }
 
@@ -383,13 +383,13 @@ nav {
 }
 
 .section__title--two {
-  width: 456px;
+  width: 60%;
   letter-spacing: 1px;
 }
 
 .section__para--two {
   text-align: left;
-  max-width: 570px;
+  max-width: 100%;
   margin-top: 18px;
 }
 
@@ -696,7 +696,7 @@ footer {
   padding: 96px 32px;
   background-color: #6415ff;
   margin-bottom: -32px;
-  width: 100vw;
+  width: 100%;
 }
 
 .footer__row {
@@ -815,7 +815,7 @@ li {
   background-color: rgba(203, 213, 224);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 737px) {
   #landing {
     padding: 0 32px;
   }
@@ -861,7 +861,7 @@ li {
   .description__para {
     margin: 20px 0;
     font-size: 16px;
-    max-width: 524px;
+    max-width: 90%;
   }
 
   .header__email {
@@ -916,7 +916,7 @@ li {
   #features .section__para {
     font-size: 14px;
     text-align: center;
-    max-width: 576px;
+    width: 90%;
   }
 
   .features {
@@ -925,7 +925,7 @@ li {
 
   .feature {
     width: 100%;
-    max-width: 384px;
+    max-width: 66%;
   }
 
   .feature__wrapper {
@@ -965,7 +965,7 @@ li {
 
   .description__img--two {
     width: 100%;
-    max-width: 458px;
+    max-width: 90%;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -995,7 +995,7 @@ li {
   .section__para--two {
     text-align: center;
     margin: 0;
-    max-width: 454px;
+    max-width: 76%;
     font-size: 14px;
   }
 
@@ -1070,7 +1070,7 @@ li {
   .description__img--wrapper {
     margin: 0;
     width: 100%;
-    max-width: 448px;
+    max-width: 80%;
   }
 
   .values__img {
@@ -1081,6 +1081,7 @@ li {
   #value .section__title {
     font-size: 30px;
     margin-bottom: 32px;
+    width: 80%;
   }
 
   .section__principles {
@@ -1097,7 +1098,7 @@ li {
 
   .principle__para {
     text-align: center;
-    max-width: 328px;
+    max-width: 50%;
   }
 
   #pricing .section__title {
@@ -1108,7 +1109,7 @@ li {
 
   #pricing .section__para {
     font-size: 14px;
-    max-width: 576px;
+    max-width: 90%;
   }
 
   .plans {
@@ -1151,7 +1152,7 @@ li {
   }
 }
 
-@media (min-width: 641px) and (max-width: 1024px) {
+@media (min-width: 738px) and (max-width: 1024px) {
   #landing {
     padding: 0 32px;
   }
@@ -1175,7 +1176,6 @@ li {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
   }
 
   h1 {
@@ -1185,7 +1185,7 @@ li {
   #landing .description__para {
     font-size: 16px;
     margin: 20px 0;
-    max-width: 538px;
+    width: 90%;
   }
 
   .customers__para {
@@ -1193,7 +1193,7 @@ li {
   }
 
   .customers__img {
-    width: 468px;
+    width: 80%;
   }
 
   .description__img--wrapper {
@@ -1215,25 +1215,31 @@ li {
   }
 
   .features {
-    max-width: 768px;
+    display: flex;
+    justify-content: center;
   }
 
   .feature {
-    width: 50%;
+    width: 45%;
   }
 
   .feature__wrapper {
     padding: 32px 8px;
     margin: 0 16px;
+    width: 70%;
   }
 
   #quality {
     padding: 0 32px;
   }
 
-  #quality .section__title {
+  .quality__description {
+    width: 50%;
+  }
+
+  #quality .section__title--two {
     font-size: 36px;
-    max-width: 268px;
+    width: 100%;
   }
 
   #quality .section__para {
