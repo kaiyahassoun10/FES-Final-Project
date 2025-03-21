@@ -809,7 +809,7 @@ li {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 599px) {
     #landing {
         padding: 0 32px;
     }
@@ -1144,7 +1144,7 @@ li {
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1023px) {
         #landing {
             padding: 0 32px;
         }
@@ -1306,7 +1306,7 @@ li {
         } 
     }
 
-    @media (min-width: 1025px) and (max-width: 1200px) {
+    @media (min-width: 1024px) and (max-width: 1200px) {
         h1 {
             font-size: 38px;
         }
