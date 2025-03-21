@@ -817,6 +817,12 @@ li {
 }
 
 @media (max-width: 640px) {
+    html , body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
   #landing {
     padding: 0 32px;
   }
@@ -1153,6 +1159,11 @@ li {
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
+    html , body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
 
   #landing {
     padding: 0 32px;
@@ -1320,6 +1331,12 @@ li {
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
+    html , body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+
   h1 {
     font-size: 38px;
   }
