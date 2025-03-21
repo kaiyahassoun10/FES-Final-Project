@@ -810,6 +810,10 @@ li {
 
 
 @media (max-width: 599px) {
+    body {
+        overflow-x: hidden;
+    }
+    
     #landing {
         padding: 0 32px;
     }
