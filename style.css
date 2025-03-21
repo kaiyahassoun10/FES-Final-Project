@@ -942,7 +942,12 @@ li {
         padding: 0 32px;
     }
 
+    #quality .section__title {
+        width: 100%;
+    }
+
     #quality .row {
+        display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }
