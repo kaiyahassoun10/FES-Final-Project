@@ -1201,6 +1201,10 @@
          #features {
              padding: 0 32px;
          }
+
+         #features .section__title {
+            text-align: center;
+         }
  
          #features .section__para {
              font-size: 16px;
@@ -1298,6 +1302,10 @@
  
          #pricing .section__para {
              font-size: 16px;
+         }
+
+         #pricing .section__title {
+            text-align: center;
          }
  
          .plan {
